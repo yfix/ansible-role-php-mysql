@@ -1,6 +1,6 @@
 # Ansible Role: PHP-MySQL
 
-[![Build Status](https://travis-ci.org/geerlingguy/ansible-role-php-mysql.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-php-mysql)
+[![Build Status](https://travis-ci.org/yfix/ansible-role-php-mysql.svg?branch=master)](https://travis-ci.org/yfix/ansible-role-php-mysql)
 
 Installs PHP MySQL support on RedHat/CentOS/Debian/Ubuntu.
 
@@ -23,18 +23,10 @@ The PHP MySQL package to install via apt/yum. This should only be overridden if 
 
 ## Dependencies
 
-  - geerlingguy.php
+  - yfix.php
 
 ## Example Playbook
 
     - hosts: webservers
       roles:
-        - { role: geerlingguy.php-mysql }
-
-## License
-
-MIT / BSD
-
-## Author Information
-
-This role was created in 2014 by [Jeff Geerling](http://jeffgeerling.com/), author of [Ansible for DevOps](http://ansiblefordevops.com/).
+        - { role: yfix.php-mysql }
