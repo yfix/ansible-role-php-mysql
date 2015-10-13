@@ -8,6 +8,6 @@
 
   roles:
     - geerlingguy.apache
-    - geerlingguy.mysql
-    - geerlingguy.php
+    - yfix.mysql
+    - yfix.php
     - ansible-role-php-mysql
